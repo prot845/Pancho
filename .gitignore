@@ -1,0 +1,11 @@
+# Local runtime, caches, source downloads and test renders
+/work/
+/project-kit/
+/attachments/
+/shorts/
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+!.env.example

@@ -167,3 +167,9 @@ Prefer concise answers by default.
 Expand when the subject warrants depth.
 
 Do not simulate progress, fabricate results, or overstate confidence.
+
+## Project skills
+
+- **video-to-shorts-skill**: For turning supplied long videos into ranked, captioned vertical clips, read `skills/video-to-shorts-skill/SKILL.md` and the relevant references. This project-local installation is used because the managed `.agents/` directory is read-only.
+- Run its Python scripts through `skills/video-to-shorts-skill/run-python.sh` so the project virtual environment and local model cache are used. Default to `transcribe.py --engine local` to avoid sending audio to external providers.
+- Review candidate moments and framing before rendering. Connecting publishing services or uploading/posting footage requires user authorization; installation alone does not authorize publication.
