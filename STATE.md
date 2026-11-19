@@ -61,3 +61,7 @@ AGENTS.md, IDENTITY.md, USER.md, MEMORY.md, STATE.md; consult memory/ and resear
 - Prepared skill scripts, references, fonts/licenses, installation instructions, dependency lock, AGENTS.md integration, research notes and operating-state updates.
 - Excluded runtime environments, model caches, scratch clones, test renders and bundled example media.
 - GitHub ref update and remote content verification must succeed before reporting publication complete.
+
+## Video to Shorts uninstall
+
+- On 2026-11-19, removed the project-local Video to Shorts skill and its runtime at the user's request. Earlier installation and publication entries are historical.
